@@ -1,0 +1,5 @@
+console.log(Math.abs(-4))
+console.log(Math.pow(2,3,5))
+console.log(Math.floor(0.8))
+let r = Math.floor(Math.random()*100)
+console.log(r)

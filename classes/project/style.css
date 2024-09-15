@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+html,body{
+    
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display  : flex ;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans';
+
+}
+.shape{
+    
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+     align-items:center ;
+    justify-content: center;
+    
+    
+}
+#circle{
+    
+     border-radius: 50%;
+}
+#rotate{
+
+    rotate: 45deg;
+    margin-top: 50px;
+}
+#rotate h1{
+    rotate: -45deg;
+}
+h1{
+    font-weight: normal;
+}
+#square:hover{
+    background-color: red;
+}
+#circle:hover{
+    background-color: green;
+}
+#rotate:hover{
+    background-color: blue;
+}

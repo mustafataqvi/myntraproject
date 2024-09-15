@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.colorFont{
+    color: brown;
+}
+.f2{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
